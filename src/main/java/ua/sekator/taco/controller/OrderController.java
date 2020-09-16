@@ -45,6 +45,8 @@ public class OrderController {
         if (order.getDeliveryZip() == null) {
             order.setDeliveryZip(user.getZip());
         }
+        log.info("return order form with data user");
+
 
         return "orderForm";
     }

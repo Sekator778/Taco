@@ -124,5 +124,18 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 //end::configureAuthentication_jdbc_withQueries[]
 */
 
+//    @Override
+//    protected void configure(HttpSecurity http) throws Exception {
+//        http
+//                .authorizeRequests()
+//                .antMatchers("/design", "/orders")
+//                .access("hasRole('ROLE_USER') && " +
+//                        "T(java.util.Calendar).getInstance().get("+
+//                        "T(java.util.Calendar).DAY_OF_WEEK) == " +
+//                        "T(java.util.Calendar).WEDNESDAY")
+//                .antMatchers("/", "/**").access("permitAll")
+//        ;
+//    }
+
 
 }
