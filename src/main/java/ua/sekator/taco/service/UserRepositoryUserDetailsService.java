@@ -22,6 +22,9 @@ public class UserRepositoryUserDetailsService
         this.userRepo = userRepo;
     }
 
+    /**
+     * У метода loadByUsername () есть одно простое правило: он никогда не должен возвращать null
+     */
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = userRepo.findByUsername(username);
