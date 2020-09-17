@@ -1,2 +1,56 @@
-server:
-  port: 9090
+##server:
+##  port: 9090
+#
+#
+##spring:
+##  security:
+##    user:
+##      name: alex
+##      password: 123
+#
+#taco:
+#  orders:
+#    pageSize: 10
+#
+#
+#  discount:
+#    codes:
+#      abcdef: 10
+#
+##      spring:
+##        profiles:
+##          active: "dev"
+##
+#
+##
+##logging:
+##  level:
+##    tacos: WARN
+##---
+##spring:
+##  profiles: dev
+##  jpa:
+##    show-sql: true
+##
+##logging:
+##  level:
+##    tacos: ALL
+#
+#
+#spring:
+#  profiles:
+#    active: "prod"
+#
+#---
+#
+#spring:
+#  profiles: dev
+#
+#
+#---
+#spring:
+#  profiles: prod
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/taco
+#    username: postgres
+#    password: password
